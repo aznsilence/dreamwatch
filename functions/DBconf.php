@@ -3,9 +3,9 @@ session_start();
 
 define("ERROR_LOG_FILE","error.log");
 
-$host = "Localhost";
-$username = "root";
-$passwd = "password";
+$host = "";
+$username = "";
+$passwd = "";
 $port = "3306";
 $db = "dreamwatch";
 
