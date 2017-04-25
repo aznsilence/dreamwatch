@@ -1,0 +1,157 @@
+
+.login-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: left;
+  align-content: flex-start;
+  margin-right: 12%;
+  margin-left: 5%;
+  margin-top: 3%;
+
+}
+.title-login {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: left;
+  align-content: flex-start;
+  margin-left: 5%;
+  margin-top: 4%;
+  height: 5px;
+}
+
+.article-item-container
+{  display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+
+  }
+
+
+.btn btn-primary, input[type="email"],
+input[type="password"],
+input[type="submit"]
+{
+
+letter-spacing: 1px;
+font-weight: bold;
+margin-top: 1px;
+
+}
+input[type="submit"]
+ {
+display: flex;
+
+}
+
+
+.login-h2 {
+color: white;
+font-size: 1.4em;
+font-weight: bold;
+text-align: center;
+}
+.h1-index-login-register {
+  color: white;
+  font-size: 3em;
+
+}
+
+.h2-form {
+color: white;
+font-size: 2em;
+font-weight: bold;
+}
+.forgetpass {display: flex;
+flex-flow: column wrap;
+justify-content: space-between;
+align-items: left;
+align-content: flex-start;
+margin-right: 12%;
+margin-left: 5%;
+margin-top: 10%;
+}
+
+
+
+body {
+background-image: url(../img/landingpage-background.jpg);
+background-size:cover;
+font-family: helvetica thin;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.companyname {
+    font-size: 1.45em;
+    color: white;
+    display: ;
+    margin-left: 5%;
+    margin-top: 5%;;
+}
+
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #a2a2a2;
+   flex-direction: column;
+   background-color: rgb(75, 56, 36);
+   opacity: 0.8;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+.list-item {
+	display: flex;
+  padding: 0.5em;
+	width: 100%;
+
+}
+@media all and (min-width: 40em) {
+  .list-item {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .list-item {
+    width: 33.33%;
+  }
+}
+.list-content {
+	background-color: white;
+  opacity: 0.8;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  color: black;
+
+}
+.list-content p {
+	flex: 1 0 auto;
+}
+.categorypage-product-image
+{
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border-radius: 15px;
+
+
+}

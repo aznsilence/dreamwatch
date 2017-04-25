@@ -1,0 +1,277 @@
+
+.login-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: left;
+  align-content: flex-start;
+  margin-right: 12%;
+  margin-left: 5%;
+  margin-top: 3%;
+
+}
+.caption {
+  color: white;
+  font-size: 1em;
+  margin-left: 5%;
+
+}
+.title-login {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: left;
+  align-content: flex-start;
+  margin-left: 5%;
+  margin-top: 4%;
+  height: 5px;
+}
+
+.article-item-container
+{  display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+
+  }
+.btn btn-primary, input[type="email"],
+input[type="password"],
+input[type="submit"]
+{
+width: 84%;
+letter-spacing: 1px;
+font-weight: bold;
+
+}
+input[type="submit"]
+ {
+display: flex;
+margin-top: 2%;
+}
+
+
+@-o-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(-20px);
+	}
+
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+
+}
+
+.fadeInLeft {
+	animation-name: fadeInLeft;
+}
+@-webkit-keyframes fadeOutLeft {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+	-o-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
+.animated3{
+
+-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+animation-fill-mode:both;
+-webkit-animation-duration:0.5s;
+-moz-animation-duration:0.5s;
+-ms-animation-duration:0.5s;
+-o-animation-duration:0.5s;
+animation-duration:0.5s;
+-webkit-animation-delay:0.5s;
+-moz-animation-delay:0.5s;
+-ms-animation-delay:0.5s;
+-o-animation-delay:0.5s;
+animation-delay:0.5s;
+}
+
+a[name="button"]
+{
+  width: 99%;
+  font-weight: bold;
+}
+
+.btn btn-primary {
+  font-weight: bold;
+  color: red;
+}
+@media screen and (max-width: 600px)
+{
+  .login-container {
+  flex-direction: column;
+  align-items: left;
+  }
+  .title-login
+    {
+    flex-direction: column;
+    align-items: left;
+    margin-left: 5%;
+    }}
+
+body {
+  background-image: url(../img/landingpage-background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  }
+
+.login-h2 {
+color: white;
+font-size: 1.4em;
+font-weight: bold;
+}
+.h1-index-login-register {
+  color: white;
+  font-size: 3em;
+
+}
+.h2-form {
+color: white;
+font-size: 2em;
+font-weight: bold;
+}
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+}
+.forgetpass {
+display: flex;
+flex-flow: column wrap;
+justify-content: space-between;
+align-items: left;
+align-content: flex-start;
+margin-right: 12%;
+margin-left: 5%;
+margin-top: 10%;
+}
+
+}
+a:hover {
+  color: white;
+
+}
+.validation-form {
+  color: white;
+  font-size: 1em;
+}
+
+.hoverpass {
+  color: white;
+
+}
+
+.foo {
+    transform: translate3d(20px, 20px, 0px);
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.companyname {
+    font-size: 1.45em;
+    color: white;
+    display: ;
+    margin-left: 5%;
+    margin-top: 5%;;
+}
+
+.main-nav {
+    margin-top: 5px;
+    display: flex;
+
+
+}
+.main-nav a {
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: white;
+    font-size: 1.5em;
+}
+
+.main-nav a:hover {
+    color: rgb(220, 251, 255);
+}
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #a2a2a2;
+   flex-direction: column;
+   background-color: rgb(75, 56, 36);
+   opacity: 0.8;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+.list-item {
+	display: flex;
+  padding: 0.5em;
+	width: 100%;
+
+}
+@media all and (min-width: 40em) {
+  .list-item {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .list-item {
+    width: 33.33%;
+  }
+}
+.list-content {
+	background-color: white;
+  opacity: 0.8;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  color: black;
+
+}
+.list-content p {
+	flex: 1 0 auto;
+}
+.categorypage-product-image
+{
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border-radius: 15px;
+
+
+}

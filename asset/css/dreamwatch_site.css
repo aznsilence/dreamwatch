@@ -1,0 +1,416 @@
+/* --------- GENERAL --------- */
+
+html, body{
+  height: 100%;
+}
+
+
+div, body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.clear{
+	clear: both;
+}
+
+/* --------- BLOCK PROMO --------- */
+
+.promo{
+	width: 100%;
+	background-color: #2f2f2f;
+	height: 40px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding-top: 12px;
+	z-index: 100;
+	display: none;
+}
+
+.promo a{
+	color: #274a9b;
+	background-color: white;
+	border-radius: 5px;
+	width: 20px;
+	padding: 5px 10px;
+	font-weight: bold;
+} 
+
+.promo a:hover{
+	
+	text-decoration: none;
+	color: black;
+}
+
+/* --------- BLOCK HEADER --------- */
+
+header{
+	
+	padding-top: 20px;	
+	font-family: 'Raleway', sans-serif;
+	z-index: 90;
+	border-bottom: 2px solid #000;
+}
+
+
+/* --------- LOGO --------- */
+
+.logo h1{
+  color: #000;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 35px;
+  margin: 0 0 5px -10px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-bottom: 45px;
+
+}
+
+.picto{
+	float: left;
+	font-size: 17px;
+	color: #2f2f2f;
+}
+
+.picto-text{
+	font-size: 11px;
+	padding-top: 7px;
+	display: block;
+	letter-spacing: 2px;
+}
+
+.picto li{
+	display: inline-block;
+	padding-right: 35px;
+}
+
+.picto li:hover{
+	color: #525252;
+	cursor: pointer;
+}
+
+/* --------- SEARCH --------- */
+
+
+input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+input#search{
+  width: 250px;
+  height: 40px;
+  border: solid 1px #b0b0b0;
+  font-size: 10pt;
+
+  color: #b0b0b0;
+  padding-left: 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+}
+
+.icon{
+  position: absolute;
+  margin-left: 17px;
+  margin-top: 13px;
+  z-index: 1;
+  color: #b0b0b0;
+}
+
+input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+}
+
+
+/* --------- MENU --------- */
+
+header nav ul{
+
+	padding: 0px;
+	padding-top: 3%;
+}
+
+header nav li{
+
+	padding-right: 5%;
+}
+
+.admin nav li{
+
+	padding-right: 0%;
+}
+
+header nav li a{
+	color: #000;
+	letter-spacing: 3px;
+	outline-style: none;
+	text-decoration: none;
+}
+
+header nav li a:hover, header nav li a:active, {
+	text-decoration: none;
+	color: #000;
+}
+
+/*
+.luxe a{
+	background-color: #000;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   display: block;
+   padding:5px;
+   width: 125px;
+   color: #FFF;
+   font-weight: bold;
+   letter-spacing: 3px;
+}
+
+.luxe a:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+*/
+
+.image-submenu{
+
+	margin-top: 30px;
+}
+
+.logo-brands{
+	margin-top: 40px;
+}
+
+.logo-brands li{
+	display: inline-block;	
+	margin-right: 2px;
+}
+
+/*** SLIDER ****/
+
+.single-item{
+
+	width: 100%;
+	z-index: -10 !important;
+}
+
+
+.slide1, .slide2, .slide3{
+	width: 100%;
+	height: 450px !important;
+	background-color: black;
+}
+
+.container{
+	width: 100%;
+}
+
+
+/*** PRODUCT LISTING ****/
+
+
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+
+/*** ADMIN PAGE ****/
+
+
+.admin label{
+	width: 200px;
+}
+
+
+/** EDIT TABLE **/
+
+article:nth-child(2){
+	padding: 50px 0px 0 50px;
+}
+
+article:nth-child(1) caption{
+	letter-spacing: 2px;
+	color: #000;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 14px;
+}
+
+article:nth-child(1) table{
+	border-collapse: collapse;
+	width: 100%;
+	border: solid #333 1px;
+}
+
+article:nth-child(1) th{
+	background-color: #444;
+	letter-spacing: 2px;
+	font-weight: normal;
+	color: #FFF;
+	height: 30px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+article:nth-child(1) th:nth-child(4),
+article:nth-child(1) th:nth-child(5){
+	text-align: center;
+}
+
+article:nth-child(1) td:nth-child(4), 
+article:nth-child(1) td:nth-child(1), 
+article:nth-child(1) th:nth-child(1), 
+article:nth-child(1) th:nth-child(4){
+	text-align: center;
+}
+
+article:nth-child(1) td:nth-child(4){
+	text-align: center;
+}
+
+article:nth-child(1) td:nth-child(5){
+	text-align: center;
+}
+
+article:nth-child(1) th, 
+article:nth-child(1) td{
+    padding: 15px;
+    text-align: left;
+}
+
+article:nth-child(1) tr:nth-child(even){
+	background-color: #e4e4e4
+}
+
+
+.modal_form label{
+	width: 200px;
+}
+
+.message, .error, .validate{
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.error{
+	color: red;
+}
+
+.validate{
+	color: #b4d000;
+}
+
+.admin .title{
+	padding-top: 35px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.avatar{
+	border:solid 1px #696969;
+}
+
+
+/*** FOOTER ***/
+
+footer{
+	width: 100%;
+    bottom: 0px;
+    background-color: #333;
+    text-align: left;
+    min-height: 250px;
+}
+
+footer li{
+	color: white;
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 11px;
+	letter-spacing: 2px;
+	list-style-type: none;
+}
+
+.footermenu{
+	display: inline-block;
+	padding-left: 5%;
+}
+
+/*** SEND MESSAGE ***/
+
+
+.message_system li{
+	list-style-type: none;
+}
